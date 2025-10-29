@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="icon" type="image/jpeg" href="sukumar-profile.jpg">
+  <link rel="shortcut icon" href="sukumar-profile.jpg" type="image/jpeg">
+  <link rel="apple-touch-icon" href="sukumar-profile.jpg">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function () {
+      // Initialize EmailJS with your user ID (Public Key)
+      emailjs.init('N75TQ_OKvBPrV3Z1J');
+    })();
+  </script>
+</head>
+
+<body>
+
+  <body>
+    <header class="navbar" id="home">
+      <div class="logo">
+        <a href="#"><span>&lt;</span>Portfolio<span>/&gt; </span></a>
+      </div>
+      <input type="checkbox" id="menu-toggle" class="menu-toggle">
+      <label for="menu-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+      <ul class="nav-links">
+        <li class="ani"><a href="#about">About</a></li>
+        <li class="ani"><a href="#skill">Skills</a></li>
+        <li class="ani"><a href="#education">Education</a></li>
+        <li class="ani"><a href="#project">Projects</a></li>
+        <li class="ani"><a href="#contact">Contact</a></li>
+        <!-- Add the 'Hire Me' button inside the dropdown menu -->
+        <li class="mobile-hire-me">
+          <a href="#" id="showPopupBtn" class="btn">
+            <i class="fa-solid fa-cloud-arrow-down"></i>Download CV
+          </a>
+        </li>
+      </ul>
+    </header>
+
+
+    <!-- Popup Modal -->
+    <div id="popup" class="popup">
+      <div class="popup-content">
+        <span class="close-btn">&times;</span>
+        <h1>Download CV</h1>
+        <h2>Are you sure you want to download the CV?</h2>
+        <p>Click below to download the CV.</p>
+        <a href="path_to_your_cv.pdf" download="CV.pdf" class="btn">Download CV</a>
+      </div>
+    </div>
+
+    <!--  -->
+    <section class="home-section">
+      <div class="content">
+        <h1>Hi, I am <span class="wave">👋</span></h1>
+        <h2 class="name"> Sukumar M</h2>
+        <h3 class="auto-type-container">I AM <span class="auto-type"></span></h3>
+        <p>I am a DevOps engineer with 3 years of experience, specializing in Docker, Kubernetes, AWS, CI/CD pipelines, and cloud infrastructure automation. I build scalable, reliable infrastructure solutions for modern applications.</p>
+        <div class="social-icons">
+          <a href="https://github.com/Sukumarmurugan" target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://github.com/Sukumarmurugan" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+      </div>
+      <div class="profile-picture">
+        <img src="sukumar-profile.jpg" alt="Profile Picture">
+      </div>
+    </section>
+    <div class="background-blur"></div>
+    <section class="logos">
+      <div class="logos-slide">
+        <img src="./assets/canva.png" alt="Canva">
+        <img src="./assets/figma (1).png" alt="Figma">
+        <img src="./assets/html (1).png" alt="HTML5">
+        <img src="./assets/python (1).png" alt="Python">
+        <img src="./assets/tailwind.png" alt="Tailwind CSS">
+        <img src="./assets/css.png" alt="CSS3">
+        <img src="./assets/git.png" alt="Git">
+        <img src="./assets/net-removebg-preview.png" alt=".NET">
+        <img src="./assets/exptress-removebg-preview.png" alt="Express.js">
+        <img src="./assets/github.png" alt="GitHub">
+        <img src="./assets/javascript (1).png" alt="JavaScript">
+        <img src="./assets/mysql.png" alt="MySQL">
+        <img src="./assets/mongo-db.png" alt="MongoDB">
+        <img src="./assets/vercel.png" alt="Vercel">
+        <img src="./assets/visual-studio-code.png" alt="Visual Studio Code">
+        <img src="./assets/nodejs.png" alt="Node.js">
+        <img src="./assets/firebase.png" alt="Firebase">
+        <img src="./assets/canva.png" alt="Canva">
+        <img src="./assets/figma (1).png" alt="Figma">
+        <img src="./assets/html (1).png" alt="HTML5">
+        <img src="./assets/python (1).png" alt="Python">
+        <img src="./assets/tailwind.png" alt="Tailwind CSS">
+        <img src="./assets/css.png" alt="CSS3">
+        <img src="./assets/javascript (1).png" alt="JavaScript">
+        <img src="./assets/mysql.png" alt="MySQL">
+        <img src="./assets/mongo-db.png" alt="MongoDB">
+        <img src="./assets/nodejs.png" alt="Node.js">
+        <img src="./assets/firebase.png" alt="Firebase">
+      </div>
+      <div class="logos-slide">
+        <img src="./assets/canva.png" alt="Canva">
+        <img src="./assets/figma (1).png" alt="Figma">
+        <img src="./assets/html (1).png" alt="HTML5">
+        <img src="./assets/python (1).png" alt="Python">
+        <img src="./assets/tailwind.png" alt="Tailwind CSS">
+        <img src="./assets/css.png" alt="CSS3">
+        <img src="./assets/git.png" alt="Git">
+        <img src="./assets/net-removebg-preview.png" alt=".NET">
+        <img src="./assets/exptress-removebg-preview.png" alt="Express.js">
+        <img src="./assets/github.png" alt="GitHub">
+        <img src="./assets/javascript (1).png" alt="JavaScript">
+        <img src="./assets/mysql.png" alt="MySQL">
+        <img src="./assets/mongo-db.png" alt="MongoDB">
+        <img src="./assets/vercel.png" alt="Vercel">
+        <img src="./assets/visual-studio-code.png" alt="Visual Studio Code">
+        <img src="./assets/nodejs.png" alt="Node.js">
+        <img src="./assets/firebase.png" alt="Firebase">
+        <img src="./assets/canva.png" alt="Canva">
+        <img src="./assets/figma (1).png" alt="Figma">
+        <img src="./assets/html (1).png" alt="HTML5">
+        <img src="./assets/python (1).png" alt="Python">
+        <img src="./assets/tailwind.png" alt="Tailwind CSS">
+        <img src="./assets/css.png" alt="CSS3">
+        <img src="./assets/javascript (1).png" alt="JavaScript">
+        <img src="./assets/mysql.png" alt="MySQL">
+        <img src="./assets/mongo-db.png" alt="MongoDB">
+        <img src="./assets/nodejs.png" alt="Node.js">
+        <img src="./assets/firebase.png" alt="Firebase">
+      </div>
+    </section>
+    <!-- About page staring -->
+    <section id="about">
+
+      <div class="about-section">
+        <!-- Profile Image Section -->
+        <div class="profile-image">
+          <img src="sukumar-profile2.jpg" class="grayscale-hover" alt="Profile Image">
+        </div>
+
+        <!-- About Text Section -->
+        <div class="about-text">
+          <h2>
+            <span class="white-text">More</span> <span class="gradient-text">About Me🚀</span>
+          </h2>
+
+          <h3>Hello! I'm <span style="color: #969494; font-weight: 500; ">Sukumar M</span>, a passionate DevOps Engineer with 3 years of experience in automation, CI/CD pipelines, and cloud infrastructure.</h3>
+          <p>With expertise in Docker, Kubernetes, AWS, and CI/CD tools, I specialize in building scalable and reliable infrastructure solutions. I bring a systematic approach to DevOps practices, ensuring that every deployment is automated, monitored, and optimized for performance.</p>
+          <p>I'm experienced in containerization, orchestration, infrastructure as code, and implementing robust deployment pipelines. Let's collaborate to build efficient DevOps solutions!</p>
+
+          <!-- Buttons Section -->
+        </div>
+      </div>
+    </section>
+
+
+    <!-- about page ending -->
+    <!-- skill -->
+    <section class="skills-section" id="skill">
+      <h1 class="skills-main-title">MY SKILLS</h1>
+      <div class="skill-categories">
+        <div class="skill-category">
+          <h2 class="category-title">CLOUD & AWS SERVICES</h2>
+          <div class="skills-grid">
+            <div class="skill-item">EC2</div>
+            <div class="skill-item">S3</div>
+            <div class="skill-item">IAM</div>
+            <div class="skill-item">Lambda</div>
+            <div class="skill-item">VPC</div>
+            <div class="skill-item">Route53</div>
+            <div class="skill-item">RDS</div>
+            <div class="skill-item">CloudFormation</div>
+            <div class="skill-item">CloudWatch</div>
+            <div class="skill-item">CloudTrail</div>
+            <div class="skill-item">EKS</div>
+            <div class="skill-item">Systems Manager</div>
+            <div class="skill-item">CodePipeline</div>
+            <div class="skill-item">CodeBuild</div>
+            <div class="skill-item">CodeDeploy</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="category-title">LINUX & ADMINISTRATION</h2>
+          <div class="skills-grid">
+            <div class="skill-item">RHEL</div>
+            <div class="skill-item">Ubuntu</div>
+            <div class="skill-item">Amazon Linux</div>
+            <div class="skill-item">Shell Scripting</div>
+            <div class="skill-item">Cron Jobs</div>
+            <div class="skill-item">Systemd</div>
+            <div class="skill-item">Networking</div>
+            <div class="skill-item">Security Hardening</div>
+            <div class="skill-item">Log Management</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="category-title">DEVOPS & AUTOMATION</h2>
+          <div class="skills-grid">
+            <div class="skill-item">Git</div>
+            <div class="skill-item">GitHub</div>
+            <div class="skill-item">Jenkins</div>
+            <div class="skill-item">Docker</div>
+            <div class="skill-item">Kubernetes</div>
+            <div class="skill-item">Ansible</div>
+            <div class="skill-item">Terraform</div>
+            <div class="skill-item">Nexus</div>
+            <div class="skill-item">Maven</div>
+            <div class="skill-item">GitLab</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="category-title">CI/CD & INFRASTRUCTURE</h2>
+          <div class="skills-grid">
+            <div class="skill-item">GitHub Actions</div>
+            <div class="skill-item">Jenkins Pipelines</div>
+            <div class="skill-item">CodePipeline</div>
+            <div class="skill-item">CodeDeploy</div>
+            <div class="skill-item">ArgoCD</div>
+            <div class="skill-item">CloudFormation</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="category-title">MONITORING & LOGGING</h2>
+          <div class="skills-grid">
+            <div class="skill-item">CloudWatch</div>
+            <div class="skill-item">Prometheus</div>
+            <div class="skill-item">Grafana</div>
+            <div class="skill-item">Nagios</div>
+          </div>
+        </div>
+        <div class="skill-category">
+          <h2 class="category-title">CORE CAPABILITIES</h2>
+          <div class="skills-grid">
+            <div class="skill-item">Cloud Automation</div>
+            <div class="skill-item">Infrastructure Optimization</div>
+            <div class="skill-item">CI/CD Implementation</div>
+            <div class="skill-item">System Reliability</div>
+            <div class="skill-item">Performance Tuning</div>
+            <div class="skill-item">Security & Compliance</div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill -->
+    <!--edu exp section -->
+    <section class="container" id="education">
+
+      <div class="section experience" style="margin-right:50px;">
+        <h2> <i style="font-size: 1.5em; padding: 10px;" class="fa-solid fa-graduation-cap"></i>My Education</h2>
+
+        <div class="card">
+          <h3>2019 - 2022</h3>
+          <p class="title">B.E EEE</p>
+          <p>JKKN College of Engineering and Technology</p>
+        </div>
+
+      </div>
+      <div class="section education">
+        <h2><i style="font-size: 1.5em; padding: 10px;" class="fa-solid fa-award"></i> My Experience</h2>
+        <div class="card">
+          <h3>Nov 2022 - Present</h3>
+          <p class="title">Cloud Engineer</p>
+          <p>Precision Infomatic M Pvt Ltd, Coimbatore</p>
+          <h6>3 years experience</h6>
+        </div>
+
+      </div>
+    </section>
+    <!--edu exp section -->
+
+    <div class="portfolio-section" id="project">
+      <h1>My Projects</h1>
+      <div class="portfolio-grid">
+        <div class="portfolio-item" id="trigger-popup-1">
+          <div class="portfolio-content">
+            <h2><i class="fa-solid fa-server"></i> Multi-Tier Web Application Architecture</h2>
+            <p>Designed and deployed a fault-tolerant three-tier web application using Amazon EC2, RDS, and Elastic Load Balancer with Auto Scaling. Ensured high availability, scalability, and secure communication using IAM and VPC configurations.</p>
+            <div class="tags">
+              <span class="tag">EC2</span>
+              <span class="tag">RDS</span>
+              <span class="tag">ELB</span>
+              <span class="tag">Auto Scaling</span>
+              <span class="tag">IAM</span>
+              <span class="tag">VPC</span>
+            </div>
+           
+          </div>
+        </div>
+
+        <div class="portfolio-item" id="trigger-popup-2">
+          <div class="portfolio-content">
+            <h2><i class="fa-solid fa-code-branch"></i> CI/CD Automation on AWS</h2>
+            <p>Implemented a robust CI/CD pipeline using AWS CodePipeline, CodeBuild, and CodeDeploy to automate deployments across multiple environments. Enhanced system reliability and reduced deployment time by 70%.</p>
+            <div class="tags">
+              <span class="tag">CodePipeline</span>
+              <span class="tag">CodeBuild</span>
+              <span class="tag">CodeDeploy</span>
+              <span class="tag">CI/CD</span>
+              <span class="tag">Automation</span>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="portfolio-item" id="trigger-popup-3">
+          <div class="portfolio-content">
+            <h2><i class="fa-solid fa-shield-halved"></i> Secure Cloud Infrastructure Design</h2>
+            <p>Developed a secure AWS architecture using IAM roles, Security Groups, and CloudTrail for audit logging. Implemented encryption and least-privilege access to ensure compliance and data protection.</p>
+            <div class="tags">
+              <span class="tag">IAM</span>
+              <span class="tag">Security Groups</span>
+              <span class="tag">CloudTrail</span>
+              <span class="tag">Encryption</span>
+              <span class="tag">Compliance</span>
+            </div>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--contact  -->
+    <section class="contact-section" id="contact">
+      <h1 class="contact-heading">Contact Me<span class="emoji"> 🚀</span></h1>
+      <div class="contact-container">
+        <div class="form-container">
+          <h2>Let's work together!</h2>
+          <p>I design and code beautifully simple things, and I love what I do. Just simple like that!</p>
+          <form id="contact-form">
+            <div class="form-row">
+              <input type="text" name="first_name" placeholder="Your Name" required>
+            </div>
+            <div class="form-row">
+              <input type="email" name="email" placeholder="Your Email" required>
+            </div>
+            <div class="form-row">
+              <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">Send Message</button>
+          </form>
+
+        </div>
+        <div class="contact-details">
+          <div class="detail-item">
+            <a href="tel:+918754102493" class="detail-link">
+              <i class="fa-solid fa-phone"></i>
+              <span>+91 7200-432-796</span>
+            </a>
+          </div>
+          <div class="detail-item">
+            <a href="mailto:sukumarmurugan2001@gmail.com" class="detail-link">
+              <i class="fa-regular fa-envelope"></i>
+              <span>sukumarmurugan2001@gmail.com</span>
+            </a>
+          </div>
+          <div class="detail-item">
+            <a href="https://github.com/Sukumarmurugan" target="_blank" class="detail-link">
+              <i class="fa-brands fa-github"></i>
+              <span>Sukumarmurugan</span>
+            </a>
+          </div>
+          <div class="detail-item">
+            <a href="https://www.linkedin.com/in/sukumarmurugan" target="_blank" class="detail-link">
+              <i class="fa-brands fa-linkedin"></i>
+              <span>LinkedIn Profile</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--contact section -->
+
+    <!-- footer section-->
+    <footer class="footer-section">
+      <div class="footer-links">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skill">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#project">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="footer-icons">
+        <a href="https://github.com/Sukumarmurugan" target="_blank"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/sukumarmurugan" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+
+      <div class="footer-copyright">
+        <p>Copyright &copy; All rights reserved - 2024</p>
+
+      </div>
+    </footer>
+    <div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-arrow-up"></i></span>
+    </div>
+    <!-- footer section-->
+
+
+
+
+    <!-- js -->
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
+    <script src="script.js"></script>
+    <!-- js -->
+  </body>
+
+</html>
+</html>
